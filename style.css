@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   padding: 0;
@@ -7,11 +7,12 @@
 }
 
 :root {
-  --primary-color: #7c3aed;
+  --primary-color: #a3e635;
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
 }
 
 a {

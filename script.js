@@ -1,7 +1,7 @@
 function reverseString(str) {
   var listOfChars = str.split("");
-  var reversedListOfChar = listOfChars.reverse();
-  var reversedString = reversedListOfChar.join("");
+  var reversedList = listOfChars.reverse();
+  var reversedString = reversedList.join("");
   return reversedString;
 }
 
@@ -171,7 +171,7 @@ var bdayInput = document.querySelector("#bday-input");
 var showBtn = document.querySelector("#show-btn");
 var resultDiv = document.querySelector("#result");
 
-function clickHandler(e) {
+function clickHandler() {
   var bdayString = bdayInput.value;
 
   if (bdayString !== "") {
@@ -207,7 +207,7 @@ function clickHandler(e) {
         resultDiv.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${ctr1} days.`;
       }
     } else {
-      resultDiv.innerText = "Yay! Your birthday is palindrome!";
+      resultDiv.innerText = "Your birthday is palindrome!";
     }
   }
 }
